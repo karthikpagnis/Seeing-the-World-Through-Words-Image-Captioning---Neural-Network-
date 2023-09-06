@@ -1,5 +1,5 @@
 # Seeing-the-World-Through-Words-Image-Captioning---Neural-Network-
-Seeing the World Through Eyes (Image Captioning - Neural Network) is a Project in which we use neural network to build a image captioning software which helps visually impaired people to listen to the caption of the image taken by camera
+Seeing the World Through Words (Image Captioning - Neural Network) is a Project in which we use a neural network to build an image captioning software that helps visually impaired people listen to the caption of the image taken by a camera
 
 
 Image captioning is a technology that allows visually impaired individuals to understand and appreciate visual content through descriptive text. This technology uses machine learning algorithms to generate accurate and detailed captions for images, which describe the content and context of an image in natural language.
@@ -7,8 +7,8 @@ Image captioning is a technology that allows visually impaired individuals to un
 This is particularly beneficial for individuals who are visually impaired, as they are often unable to access visual information such as photos, videos, and graphics. With the use of image captioning, visually impaired individuals can experience a more inclusive and enriched media experience, which can enhance their overall quality of life.
 
 Objective:
-#The objective of an assistant for visually impaired using image captioning is to provide a technology-based solution that helps individuals with visual impairments to access visual information in their daily lives. 
-#The main goal is to use computer vision and natural language processing techniques to generate accurate and descriptive captions for images, which can be read aloud by an assistant or displayed on a braille device. This can help visually impaired individuals to navigate their environment, recognize faces, read signs, and access visual media such as books and websites.
+#The objective of an assistant for the visually impaired using image captioning is to provide a technology-based solution that helps individuals with visual impairments access visual information in their daily lives. 
+#The main goal is to use computer vision and natural language processing techniques to generate accurate and descriptive captions for images, which can be read aloud by an assistant or displayed on a braille device. This can help visually impaired individuals navigate their environment, recognize faces, read signs, and access visual media such as books and websites.
 
 **METHODOLOGY**
 
@@ -53,11 +53,11 @@ Transfer learning can be used to leverage the pre-trained weights of the Efficie
 
 Model Compiling:
 •	Model compiling refers to the process of specifying the optimizer, loss function, and evaluation metrics for the model. Once the model architecture is defined, the next step is to compile the model before training.
-•	Optimizer specifies the algorithm used to update the weights of model during training. Here we are using Adam Optimizer which is used in deep learning that combines the advantages of Adagrad and RMSprop optimization algorithms.
+•	Optimizer specifies the algorithm used to update the weights of the model during training. Here we are using Adam Optimizer which is used in deep learning that combines the advantages of Adagrad and RMSprop optimization algorithms.
 •	Loss function specifies the objective that the model is trying to minimize during training. Cross-entropy loss function, also known as log loss, is commonly used in classification tasks. It measures the difference between the predicted probability distribution and the actual probability distribution.
 
 Image Capturing:
-•	Using a webcam to capture images for processing on the runtime. Resize the output to fit the video element. Wait for Capture to be clicked. Image which was just taken used for image captioning.
+•	Using a webcam to capture images for processing on the runtime. Resize the output to fit the video element. Wait for Capture to be clicked. Image which was just taken and used for image captioning.
 
 <img width="413" alt="image" src="https://github.com/karthikpagnis/Seeing-the-World-Through-Words-Image-Captioning---Neural-Network-/assets/91360050/2f663efc-9b55-4561-849c-7bfbebf5b9e0">
       Figure 1: Encoding and Decoding for Image Captioning
